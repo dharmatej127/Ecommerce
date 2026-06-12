@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api/products",
+  baseURL: "https://ecommerce-rpaj.onrender.com",
 });
 
 export default API;
